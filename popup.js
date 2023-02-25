@@ -47,10 +47,3 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 
 // Handle errors
 chrome.runtime.lastError && console.error(chrome.runtime.lastError.message);
-
-{
-  /* <button aria-label="Invite Vijay Langdapure to connect" id="ember115" class="artdeco-button artdeco-button--2 artdeco-button--secondary ember-view"><!---->
-<span class="artdeco-button__text">
-    Connect
-</span></button> */
-}
