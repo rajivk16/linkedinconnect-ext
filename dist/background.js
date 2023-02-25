@@ -1,0 +1,1 @@
+chrome.runtime.onConnect.addListener((e=>{console.log("Connected to popup window"),e.postMessage({connected:!0}),e.onMessage.addListener((function(e){"start"===e.message&&chrome.tabs.query({active:!0,currentWindow:!0},(function(e){chrome.tabs.sendMessage(e[0].id,{message:"start"})}))}))}));
