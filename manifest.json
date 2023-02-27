@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "SalesRobot",
-  "version": "0.1.0",
-  "description": "Automatically send connection requests on LinkedIn.",
+  "name": "Linkedin Connect Robot",
+  "version": "0.2.0",
+  "description": "Automatically send connection requests or follow people on LinkedIn.",
   "background": {
     "service_worker": "./background.js"
   },
